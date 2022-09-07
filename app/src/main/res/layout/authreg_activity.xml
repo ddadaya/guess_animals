@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthReg">
+
+
+    <TextView
+        android:id="@+id/name4"
+        android:layout_width="273dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="401dp"
+        android:layout_marginEnd="212dp"
+        android:rotation="62"
+        android:text="Animal Guru"
+        android:textColor="#4DDD4D4D"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="273dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="368dp"
+        android:rotation="62"
+        android:text="Animal Guru"
+        android:textColor="#4DDD4D4D"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/registrate"
+        android:layout_width="183dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Зарегистрироваться"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="183dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Войти"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="367dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="197dp"
+        android:ems="10"
+        android:hint="enter your email"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="367dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="298dp"
+        android:ems="10"
+        android:hint="enter your password"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="282dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="84dp"
+        android:rotation="62"
+        android:text="Animal Guru"
+        android:textColor="#4DDD4D4D"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="273dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="176dp"
+        android:rotation="62"
+        android:text="Animal Guru"
+        android:textColor="#4DDD4D4D"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

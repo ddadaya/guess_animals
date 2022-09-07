@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1032666742468",
+    "firebase_url": "https://guess-d0eea-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "guess-d0eea",
+    "storage_bucket": "guess-d0eea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032666742468:android:cd56cae5e728f3e7991391",
+        "android_client_info": {
+          "package_name": "com.example.guess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032666742468-uv4lnsl7acl58rci3jmgaev9k3b5d1c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTQYrBfFwZ4sK3Hm7PzHltdoyPnzhc58E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032666742468-uv4lnsl7acl58rci3jmgaev9k3b5d1c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
